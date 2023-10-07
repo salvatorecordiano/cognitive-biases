@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>List of cognitive biases</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicon/site.webmanifest">
+	<link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="assets/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta property="og:image" content="assets/favicon/og-image.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="725">
+	<meta property="og:title" content="List of cognitive biases">
+	<meta property="og:description"
+		content="The Wikipedia list of cognitive biases revamped in a more digest readable way.">
+	<meta property="og:url" content="https://uxinlux.github.io/cognitive-biases/">
+	<link rel="stylesheet" href="assets/style.css">
+
+	<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+	<p class="logo">
+		<img src="assets/favicon/ux-in-lux.png" width="240" height="240" alt="UX In Lux">
+	</p>
+
+
+	<article>
+		<h1>List Of Cognitive Biases</h1>
+		<p>We built a workshop to help people understand cognitive biases.</p>
+		<ul>
+			<li><a href="https://stephaniewalter.design/blog/52-ux-cards-to-discover-cognitive-biases/"
+					rel="nofollow">Workshop in English with paper cards</a></li>
+			<li><a href="https://stephaniewalter.design/blog/facilitate-a-remote-discover-cognitive-biases-workshop/"
+					rel="nofollow">Remote workshop in Englih with Miro board</a></li>
+			<li><a href="https://stephaniewalter.design/fr/blog/a-la-decouverte-des-biais-cognitifs-le-jeu-de-52-cartes/"
+					rel="nofollow">Workshop in French with paper cards</a></li>
+		</ul>
+		<h2>How to consult the list online</h2>
+		<p>The online list of biaises is available in different langues</p>
+		<ul>
+			<li><a href="https://shop.stephaniewalter.design/collection/cognitive-biases-cards-workshop-resources" rel="nofollow">Cards in English</a></li>
+			<!-- <li><a href="https://uxinlux.github.io/cognitive-biases/52-liste-fr/" rel="nofollow">List in French</a></li> -->
+			<li><a href="https://uxinlux.github.io/cognitive-biases/52-list-it/" rel="nofollow">List in Italian</a></li>
+		</ul>
+		<h2>What can I do with</h2>
+		<p>We prepared the pages to be responsive:</p>
+		<ul>
+			<li>Visit the page with your smartphone or tablet,</li>
+			<li>Print it,</li>
+			<li>Display it in little cards or simple list.</li>
+		</ul>
+	</article>
+
+
+
+
+
+
+
+	<footer>
+		<p>From Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">List of cognitive biases</a>
+			— <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-SA 3.0</a></p>
+		<p>Page made by <a href="https://twitter.com/geoffreycrofte">Geoffrey Crofte</a> for <a
+				href="https://twitter.com/ux_lux">UX in Lux</a>.</p>
+	</footer>
+
+	<script>
+		let switcher = document.getElementById('switch'),
+			body = document.body;
+
+		switcher.addEventListener('click', function () {
+			body.classList.toggle('list');
+		});
+	</script>
+
+	<script type="module">
+		import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+		const el = document.createElement('pwa-update');
+		document.body.appendChild(el);
+	</script>
+</body>
+
+</html>
